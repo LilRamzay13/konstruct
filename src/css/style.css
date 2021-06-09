@@ -160,6 +160,20 @@
   text-decoration: none;
 }
 
+@media (max-width: 660px) {
+  .home,
+.about,
+.services,
+.work,
+.contact {
+    margin: 0 auto;
+    left: 0;
+  }
+
+  .nav img {
+    display: none;
+  }
+}
 .container {
   max-width: 940px;
   width: 100%;
@@ -200,10 +214,26 @@
   margin-top: 80px;
 }
 
+@media (max-width: 940px) {
+  .description__first {
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+  }
+
+  .our__story {
+    text-align: center;
+  }
+}
 .description__block__first {
   max-width: 405px;
 }
 
+@media (max-width: 940px) {
+  .description__block__first {
+    text-align: center;
+  }
+}
 .noncolor__text {
   font-family: "Open Sans";
   font-style: normal;
@@ -244,6 +274,12 @@
   margin-left: 8%;
 }
 
+@media (max-width: 940px) {
+  .description__img {
+    margin: 0;
+    margin-top: 30px;
+  }
+}
 .description__img img {
   margin-right: 2%;
 }
@@ -264,6 +300,16 @@
   width: 25%;
 }
 
+@media (max-width: 940px) {
+  .description__block__second {
+    display: -ms-grid;
+    display: grid;
+  }
+
+  .description__second__header {
+    width: 100%;
+  }
+}
 .description__and__button {
   max-width: 587px;
   width: 99%;
@@ -358,6 +404,21 @@
   display: flex;
 }
 
+@media (max-width: 940px) {
+  .description__second__section {
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+  }
+
+  .description__section {
+    width: 100%;
+  }
+
+  .description__section span {
+    text-align: center;
+  }
+}
 .description__second__section span {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -404,6 +465,11 @@
   width: 25%;
 }
 
+@media (max-width: 940px) {
+  .last__div__span__and__button {
+    width: 100%;
+  }
+}
 .last__div__span__and__button span {
   font-family: "Open Sans";
   font-style: normal;
@@ -472,6 +538,17 @@
   display: flex;
 }
 
+@media (max-width: 940px) {
+  .mail {
+    max-width: none;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+    margin: 0;
+    left: -20px;
+  }
+}
 .mail span {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -488,6 +565,19 @@
   margin-right: 70px;
 }
 
+@media (max-width: 940px) {
+  .contact__us {
+    height: 150px;
+  }
+
+  .mail span {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-left: 20%;
+    margin-bottom: 10px;
+  }
+}
 .mail button {
   position: absolute;
   max-width: 150px;
@@ -505,6 +595,12 @@
   color: #ffffff;
 }
 
+@media (max-width: 940px) {
+  .mail button {
+    max-width: none;
+    width: 20%;
+  }
+}
 .mail button:hover {
   background: #0e4155;
   -webkit-transition: 0.9s;
@@ -531,6 +627,12 @@
   box-sizing: border-box;
 }
 
+@media (max-width: 940px) {
+  .email {
+    max-width: none;
+    width: 70%;
+  }
+}
 .footer__main {
   width: 100%;
   background: #141a20;
@@ -646,7 +748,7 @@
 }
 
 .links i {
-  color: #FFFFFF;
+  color: #ffffff;
   margin-right: 10%;
   margin-top: 25px;
 }
